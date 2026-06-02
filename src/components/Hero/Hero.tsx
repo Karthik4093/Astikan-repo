@@ -9,13 +9,16 @@ const stats = [
 
 export function Hero() {
   return (
-    <section id="home" className="bg-white py-14 sm:py-20 lg:py-24">
+    <section
+  id="home"
+  className="bg-white pt-8 pb-12 sm:pt-8 sm:pb-14 lg:pt-10 lg:pb-16"
+>
       <div className="container-page grid items-center gap-10 lg:grid-cols-[1.05fr_.95fr] lg:gap-12">
         <div data-gsap="fade-up">
           <p className="mb-5 inline-flex items-center gap-2 rounded-full bg-rose-50 px-4 py-2 text-sm font-semibold text-rose-600">
             <Heart className="h-4 w-4 fill-current" /> Your Complete Digital Health Companion
           </p>
-          <h1 className="max-w-3xl text-3xl font-extrabold leading-tight tracking-normal sm:text-5xl lg:text-6xl">
+          <h1 className="max-w-3xl text-3xl font-[700] leading-tight tracking-normal sm:text-4xl lg:text-5xl">
             Astikan Health Your Complete <span className="gradient-text">Digital Healthcare Partner</span>
           </h1>
           <p className="mt-5 max-w-2xl text-base leading-8 text-muted">
