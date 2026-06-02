@@ -21,7 +21,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-slate-100 bg-white/95 backdrop-blur">
       <nav className="container-page flex h-16 items-center justify-between sm:h-20" aria-label="Main navigation">
         <a href="#home" className="flex items-center">
-          <Image src="/logos/astikan-logo.svg" alt="Astikan Healthcare" width={188} height={52} priority className="h-auto w-32 sm:w-40 md:w-44" />
+          <Image src="/logos/astikan-logo.webp" alt="Astikan Healthcare" width={188} height={52} priority className="h-auto w-32 sm:w-40 md:w-44" />
         </a>
         <div className="hidden items-center gap-5 md:flex lg:gap-7">
           {navItems.map((item) => (
@@ -41,7 +41,7 @@ export function Header() {
         <div className="fixed inset-0 z-50 flex justify-end bg-ink/35 md:hidden" role="dialog" aria-modal="true" onClick={() => setOpen(false)}>
           <div className="flex h-full w-[min(88vw,22rem)] flex-col overflow-y-auto border-l border-slate-100 bg-white p-5 shadow-soft sm:w-[min(80vw,24rem)] sm:p-6" onClick={(event) => event.stopPropagation()}>
             <div className="mb-8 flex items-center justify-between gap-4">
-              <Image src="/logos/astikan-logo.svg" alt="Astikan Healthcare" width={156} height={44} className="h-auto w-28 sm:w-32" />
+              <Image src="/logos/astikan-logo.webp" alt="Astikan Healthcare" width={156} height={44} className="h-auto w-28 sm:w-32" />
               <button className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-slate-200" onClick={() => setOpen(false)} aria-label="Close menu">
                 <X className="h-5 w-5" />
               </button>
@@ -54,7 +54,7 @@ export function Header() {
               ))}
             </div>
             <a href="#contact" onClick={() => setOpen(false)} className="gradient-button mt-8">
-              <Stethoscope className="h-4 w-4" /> Dr Astikan
+              <Stethoscope className="h-4 w-4" /> Login
             </a>
           </div>
         </div>

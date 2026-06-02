@@ -12,7 +12,7 @@ export function Footer() {
     <footer className="bg-black text-white">
       <div className="container-page grid gap-8 py-14 md:grid-cols-2 lg:grid-cols-4 lg:gap-10" data-gsap="fade-up">
         <div>
-          <Image src="/logos/astikan-logo.svg" alt="Astikan Healthcare" width={160} height={45} className="mb-5 h-auto w-32 brightness-0 invert sm:w-36" />
+          <Image src="/logos/astikan-logo.webp" alt="Astikan Healthcare" width={160} height={45} className="mb-5 h-auto w-32 brightness-0 invert sm:w-36" />
           <p className="leading-7 text-slate-300">Empowering India&apos;s health with affordable and accessible solutions. Your trusted partner for healthcare coverage and wellness.</p>
           <div className="mt-5 space-y-3 text-sm text-slate-300">
             <p className="flex gap-3"><MapPin className="h-5 w-5 shrink-0 text-primary" /> B-45, Sector 56, Noida, Uttar Pradesh, India</p>

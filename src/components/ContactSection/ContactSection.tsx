@@ -8,7 +8,8 @@ export function ContactSection() {
   return (
     <section id="contact" className="bg-slate-100 py-16 sm:py-20">
       <div className="container-page">
-        <SectionHeader title={<>Get in <span className="gradient-text">Touch</span></>} description="Have questions about your health coverage? Our expert team is here to help you choose the right plan." />
+        <SectionHeader title={<>Get in <span className="gradient-text">Touch</span></>} description="Have questions about your health coverage? Our expert team is here to help
+you choose the right plan and answer all your healthcare queries." />
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:items-start">
           <form className="card h-fit self-start p-6 sm:p-8 lg:max-w-2xl lg:justify-self-start" data-gsap="fade-right">
             <p className="mb-6 inline-flex items-center gap-2 rounded-md bg-gradient-to-r from-primary to-rose-500 px-5 py-3 font-bold text-white"><Heart className="h-5 w-5 fill-current" /> Send us a message</p>
