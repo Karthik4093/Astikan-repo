@@ -1,0 +1,24 @@
+<svg width="760" height="620" viewBox="0 0 760 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="34" y="30" width="692" height="560" rx="42" fill="#E8F1F8"/>
+  <rect x="75" y="74" width="610" height="440" rx="30" fill="#F9FAFB"/>
+  <rect x="120" y="110" width="92" height="18" rx="9" fill="#D7E5EF"/>
+  <rect x="235" y="110" width="92" height="18" rx="9" fill="#D7E5EF"/>
+  <rect x="350" y="110" width="92" height="18" rx="9" fill="#D7E5EF"/>
+  <circle cx="206" cy="230" r="74" fill="#FFD6B6"/>
+  <circle cx="388" cy="210" r="82" fill="#F2C19C"/>
+  <circle cx="548" cy="240" r="69" fill="#E4AE88"/>
+  <path d="M122 490c10-102 64-154 137-154s128 52 138 154H122Z" fill="#F8FBFF"/>
+  <path d="M292 490c10-111 75-170 157-170s146 59 157 170H292Z" fill="#0EA5A4"/>
+  <path d="M454 490c8-86 52-132 112-132s105 46 113 132H454Z" fill="#F8FBFF"/>
+  <path d="M152 182c34-51 101-46 126 1-19-16-44-24-75-23-26 0-43 5-51 22Z" fill="#1F2937"/>
+  <path d="M309 178c29-78 123-75 159-1-47-31-114-31-159 1Z" fill="#0F766E"/>
+  <path d="M492 202c25-54 91-53 116-1-39-20-76-19-116 1Z" fill="#374151"/>
+  <rect x="165" y="392" width="84" height="26" rx="7" fill="#E6F0FF"/>
+  <text x="177" y="410" font-family="Poppins, Arial" font-size="13" font-weight="700" fill="#7C3AED">Astikan</text>
+  <rect x="420" y="382" width="88" height="28" rx="7" fill="#E6FFFA"/>
+  <text x="432" y="401" font-family="Poppins, Arial" font-size="13" font-weight="700" fill="#0F766E">Astikan</text>
+  <path d="M99 525h340" stroke="#CBD5E1" stroke-width="16" stroke-linecap="round"/>
+  <rect x="392" y="500" width="250" height="58" rx="20" fill="white"/>
+  <circle cx="430" cy="529" r="10" fill="#22C55E"/>
+  <text x="452" y="535" font-family="Poppins, Arial" font-size="18" font-weight="600" fill="#111827">Instant Coverage Active</text>
+</svg>

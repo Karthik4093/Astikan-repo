@@ -1,0 +1,17 @@
+<svg width="760" height="540" viewBox="0 0 760 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="96" y="244" width="520" height="206" rx="22" transform="rotate(-6 96 244)" fill="#251C19"/>
+  <rect x="112" y="102" width="510" height="280" rx="24" transform="rotate(-8 112 102)" fill="url(#card)"/>
+  <text x="150" y="152" transform="rotate(-8 150 152)" font-family="Poppins, Arial" font-size="28" font-weight="700" fill="white">HealthPocket</text>
+  <rect x="154" y="208" width="78" height="58" rx="10" transform="rotate(-8 154 208)" fill="#E8D6A8"/>
+  <path d="M446 224h46v-46h42v46h46v42h-46v46h-42v-46h-46v-42Z" fill="#FF785A"/>
+  <text x="154" y="326" transform="rotate(-8 154 326)" font-family="Poppins, Arial" font-size="26" fill="white">8765 4321 0987 6543</text>
+  <text x="160" y="370" transform="rotate(-8 160 370)" font-family="Poppins, Arial" font-size="21" fill="white">JANE DOE</text>
+  <text x="492" y="366" transform="rotate(-8 492 366)" font-family="Poppins, Arial" font-size="34" font-weight="800" fill="white">RuPay</text>
+  <defs>
+    <linearGradient id="card" x1="112" y1="102" x2="622" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#312E81"/>
+      <stop offset=".55" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+  </defs>
+</svg>

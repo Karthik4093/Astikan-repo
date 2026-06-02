@@ -1,0 +1,13 @@
+<svg width="260" height="72" viewBox="0 0 260 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="8" width="56" height="56" rx="12" fill="url(#g)"/>
+  <path d="M17 19c17 3 26 12 31 29-16-5-26-14-31-29Z" fill="white" opacity=".95"/>
+  <path d="M45 16c-5 16-14 26-29 31 2-16 13-27 29-31Z" fill="white" opacity=".85"/>
+  <text x="72" y="34" font-family="Poppins, Arial" font-size="27" font-weight="600" fill="#2B2B35">astikan</text>
+  <text x="75" y="52" font-family="Poppins, Arial" font-size="10" font-weight="600" letter-spacing="3" fill="#7C8190">HEALTHCARE</text>
+  <defs>
+    <linearGradient id="g" x1="4" y1="8" x2="60" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+</svg>
