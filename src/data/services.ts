@@ -4,7 +4,6 @@ import {
   Building2,
   Heart,
   HeartPulse,
-  Hospital,
   Pill,
   ShieldCheck,
   Sparkles,

@@ -7,7 +7,7 @@ export function AstikanAI() {
   return (
     <section className="bg-white py-16 sm:py-20">
       <div className="container-page">
-        <div className="dark-panel grid gap-10 p-8 sm:p-10 lg:grid-cols-[1.2fr_.8fr] lg:p-14" data-aos="fade-up">
+        <div className="dark-panel grid gap-6 p-6 sm:gap-8 sm:p-8 lg:grid-cols-[1.2fr_.8fr] lg:p-14" data-gsap="fade-up">
           <div>
             <p className="mb-5 flex items-center gap-2 text-sm font-semibold text-violet-300"><Smartphone className="h-5 w-5" /> Astikan AI</p>
             <h2 className="text-3xl font-extrabold sm:text-4xl">Astikan AI - Your Health Companion</h2>

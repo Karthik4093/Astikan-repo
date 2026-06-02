@@ -9,10 +9,10 @@ export function ContactSection() {
     <section id="contact" className="bg-slate-100 py-16 sm:py-20">
       <div className="container-page">
         <SectionHeader title={<>Get in <span className="gradient-text">Touch</span></>} description="Have questions about your health coverage? Our expert team is here to help you choose the right plan." />
-        <div className="grid gap-8 lg:grid-cols-[1.5fr_.85fr]">
-          <form className="card p-6 sm:p-8" data-aos="fade-right">
+        <div className="grid gap-8 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:items-start">
+          <form className="card h-fit self-start p-6 sm:p-8 lg:max-w-2xl lg:justify-self-start" data-gsap="fade-right">
             <p className="mb-6 inline-flex items-center gap-2 rounded-md bg-gradient-to-r from-primary to-rose-500 px-5 py-3 font-bold text-white"><Heart className="h-5 w-5 fill-current" /> Send us a message</p>
-            <div className="grid gap-4 sm:grid-cols-2">
+            <div className="grid gap-3 sm:grid-cols-2 sm:gap-4">
               <input className={inputClass} aria-label="First name" placeholder="First Name" />
               <input className={inputClass} aria-label="Last name" placeholder="Last Name" />
               <input className={`${inputClass} sm:col-span-2`} aria-label="Phone" placeholder="+91 98765 43210" />
@@ -26,7 +26,7 @@ export function ContactSection() {
               <button type="button" className="gradient-button sm:col-span-2">Send Message</button>
             </div>
           </form>
-          <aside className="space-y-5" data-aos="fade-left">
+          <aside className="space-y-5" data-gsap="fade-left">
             {[
               [MapPin, "Registered Office", "B-45, Sector 56, Noida, Uttar Pradesh, India Pin: 201301"],
               [Building2, "Branch Office", "C-22, Sector 62, Noida, Uttar Pradesh, India Pin: 201309"],
@@ -50,7 +50,7 @@ export function ContactSection() {
               <div className="mt-4 space-y-3">
                 {quickActions.map((action, index) => {
                   const Icon = index === 0 ? Heart : index === 1 ? MessageCircle : Download;
-                  return <button key={action} className="flex w-full items-center gap-3 rounded-md border border-slate-200 px-4 py-3 text-left text-sm font-semibold"><Icon className="h-5 w-5 text-primary" /> {action}</button>;
+                  return <button key={action} className="flex w-full items-center gap-3 rounded-md border border-slate-200 px-4 py-3 text-left text-sm font-semibold transition hover:border-primary hover:bg-slate-50"><Icon className="h-5 w-5 shrink-0 text-primary" /> {action}</button>;
                 })}
               </div>
             </div>

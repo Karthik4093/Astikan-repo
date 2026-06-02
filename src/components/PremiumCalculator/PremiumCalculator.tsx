@@ -27,13 +27,13 @@ export function PremiumCalculator() {
 
   return (
     <section id="premium-calculator" className="bg-white py-16 sm:py-20">
-      <div className="container-page grid gap-10 lg:grid-cols-[1fr_.9fr] lg:items-center">
-        <form className="overflow-hidden rounded-lg bg-white shadow-soft ring-1 ring-slate-100" data-aos="fade-right">
+      <div className="container-page grid gap-8 lg:grid-cols-[1fr_.9fr] lg:items-start">
+        <form className="overflow-hidden rounded-lg bg-white shadow-soft ring-1 ring-slate-100" data-gsap="fade-right">
           <div className="bg-gradient-to-r from-primary to-rose-500 p-6 text-white">
             <h2 className="flex items-center gap-3 text-2xl font-bold"><Calculator className="h-6 w-6" /> Health Premium Calculator</h2>
             <p className="text-sm text-white/85">Instantly calculate your health plan premium</p>
           </div>
-          <div className="grid gap-5 p-6 sm:grid-cols-2">
+          <div className="grid gap-4 p-5 sm:grid-cols-2 sm:gap-5 sm:p-6">
             <label className="space-y-2 text-sm font-medium">Select Age Band
               <select className={selectClass} value={inputs.ageBand} onChange={(e) => update("ageBand", e.target.value)}>
                 {["18-35 years", "36-45 years", "46-55 years", "56-65 years"].map((item) => <option key={item}>{item}</option>)}
@@ -71,7 +71,7 @@ export function PremiumCalculator() {
             </div>
           </div>
         </form>
-        <div data-aos="fade-left">
+        <div data-gsap="fade-left">
           <h2 className="text-3xl font-extrabold sm:text-4xl">Reduce Your <span className="gradient-text">Health Insurance Premium</span></h2>
           <p className="mt-5 leading-8 text-muted">With Astikan Membership, significantly reduce your health insurance costs while getting enhanced coverage and benefits for your entire family.</p>
           <div className="mt-7 space-y-4">
@@ -86,7 +86,7 @@ export function PremiumCalculator() {
               </div>
             ))}
           </div>
-          <div className="mt-8 grid grid-cols-2 gap-6 text-center">
+          <div className="mt-8 grid grid-cols-1 gap-4 text-center sm:grid-cols-2 sm:gap-6">
             <div><p className="text-4xl font-extrabold text-primary">30%</p><p className="text-sm text-muted">Average Savings</p></div>
             <div><p className="text-4xl font-extrabold text-rose-500">24/7</p><p className="text-sm text-muted">Support Available</p></div>
           </div>
