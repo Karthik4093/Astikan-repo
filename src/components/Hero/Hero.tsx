@@ -39,7 +39,7 @@ export function Hero() {
           </div>
         </div>
         <div className="relative" data-gsap="zoom-in">
-          <Image src="/illustrations/healthcare-team.svg" alt="Astikan healthcare team" width={760} height={620} priority className="h-auto w-full rounded-lg" />
+          <Image src="/illustrations/healthcare-team.webp" alt="Astikan healthcare team" width={760} height={620} priority className="h-auto w-full rounded-lg" />
         </div>
       </div>
     </section>
